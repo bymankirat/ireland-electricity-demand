@@ -1,0 +1,52 @@
+{
+  "demo": false,
+  "headline": {
+    "first_full_year": 2019,
+    "last_full_year": 2025,
+    "growth_pct": 18.890041158762184,
+    "twh_last": 34.569308375,
+    "twh_first": 29.076706541666667,
+    "peak_mw": 5965.25,
+    "peak_time": "2025-01-08 17:00:00",
+    "winter_peak_17_19_pct": 99.22308546059934,
+    "wind_share_last12": 33.211685837452386,
+    "hours_wind_over_half_last12": 25.031389110832098,
+    "data_start": "2019-01-01 00:00:00",
+    "data_end": "2026-10-11 23:00:00"
+  },
+  "wind_co2_slope_per_10pp": -21.41698094526044,
+  "chosen": "Gradient boosting",
+  "test": {
+    "last_week": {
+      "mape": 4.130224922846846,
+      "mae": 167.9485426296867,
+      "peak_mae": 176.55855161787366,
+      "peak_mape": 3.8080960758304965
+    },
+    "yesterday": {
+      "mape": 4.600652006791276,
+      "mae": 184.2055352251327,
+      "peak_mae": 178.95724191063175,
+      "peak_mape": 3.960664875288538
+    },
+    "linear": {
+      "mape": 2.7425730449397503,
+      "mae": 109.32410945568311,
+      "peak_mae": 101.52802238353092,
+      "peak_mape": 2.20118699308042
+    },
+    "gbm": {
+      "mape": 2.7353615256320314,
+      "mae": 110.2807869170994,
+      "peak_mae": 118.77718924960335,
+      "peak_mape": 2.556562184163571
+    }
+  },
+  "skill_vs_benchmark_pct": 33.77209288285867,
+  "interval_coverage_adaptive": 0.7882639958911145,
+  "interval_coverage_fixed": 0.6990883410374936,
+  "validation": {
+    "linear_notemp": 2.2281090054323283,
+    "gbm_notemp": 2.1681886521765397
+  }
+}

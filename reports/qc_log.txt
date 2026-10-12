@@ -1,0 +1,15 @@
+Quality control log - 2026-10-12 12:11
+QC PASSED: 7 passed, 5 warnings, 0 failures
+
+[PASS] Demand: hourly coverage since 2019: 100.0% of hours have data
+[PASS] Wind: hourly coverage since 2019: 100.0% of hours have data
+[PASS] Carbon intensity: hourly coverage since 2019: 99.8% of hours have data
+[PASS] Clock changes handled: 0 repeated 15-minute times (autumn clock change) averaged; spring gaps filled
+[WARN] Demand gaps longer than 3 hours: 18 hours missing before filling; 3 still missing (left empty, not invented)
+[PASS] Demand: values in plausible range (1500 to 8000): 0 hours outside
+[WARN] Wind: values in plausible range (0 to 6000): 20 hours outside
+[PASS] Carbon intensity: values in plausible range (0 to 1000): 0 hours outside
+[WARN] Demand never stuck at one value: longest identical run: 7 hours
+[WARN] No hour-to-hour demand jump above 800 MW: 1 jumps, e.g. 10 Sep 2020 03:00
+[PASS] Data is recent: latest hour 11 Oct 2026 23:00 (0 days ago)
+[WARN] Temperature available: not available: weather-based models skipped
